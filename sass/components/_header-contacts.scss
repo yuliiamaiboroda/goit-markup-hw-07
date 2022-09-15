@@ -1,0 +1,44 @@
+.header-contacts {
+    margin-left: auto;
+}
+
+.header-menu,
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: flex;
+    gap: 50px;
+}
+
+.header-mail-phone {
+    color: var(--text-color-gray);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    transition-property: color;
+    transition-duration: var(--normal-duration);
+    transition-timing-function: var(--normal-timing-function);
+
+    &:hover,
+    &:focus{
+            color: var(--primary-color);
+        }
+
+    &:hover .icon-header,
+    &:focus .icon-header{
+        fill: var(--primary-color);
+    }
+}
+
+
+.icon-header {
+    fill: var(--text-color-gray);
+
+    transition-property: fill;
+    transition-duration: var(--normal-duration);
+    transition-timing-function: var(--normal-timing-function);
+}
+

@@ -1,0 +1,26 @@
+body {
+    font-family: var(--primary-font);
+    color: #212121;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+.invisible{
+    visibility: hidden;
+    height: 0;
+
+}
+
+.active {
+    color: var(--primary-color);
+}
