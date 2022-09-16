@@ -239,6 +239,9 @@ body {
   background-color: #188CE8;
 }
 
+.advances {
+  background-color: var(--background-text-color);
+}
 .advances__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,16 +250,16 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.advances__list__item {
+.advances__item {
   width: 270px;
 }
-.advances__list__descriptions {
+.advances__descriptions {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.01em;
   color: var(--text-color-gray);
 }
-.advances__list__title {
+.advances__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -264,12 +267,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
-.advances {
-  background-color: var(--background-text-color);
-}
-
-.advances__list__item--vector {
+.advances__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

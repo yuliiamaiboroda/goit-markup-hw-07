@@ -1,10 +1,16 @@
-.advances__list {
-    display: flex;
-    justify-content: space-between;
+
+
+.advances {
+    background-color: var(--background-text-color);
+
+    &__list {
+            display: flex;
+            justify-content: space-between;
+        }
 
     &__item {
-            width: 270px;
-        }
+        width: 270px;
+    }
 
     &__descriptions {
         font-size: 14px;
@@ -21,17 +27,14 @@
         text-transform: uppercase;
         margin-bottom: 10px;
     }
+
+    &__wrapper {
+        display: flex;
+        height: 120px;
+        background-color: var(--background-cards-color);
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
 }
 
-.advances {
-    background-color: var(--background-text-color);
-}
-
-.advances__list__item--vector {
-    display: flex;
-    height: 120px;
-    background-color: var(--background-cards-color);
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
